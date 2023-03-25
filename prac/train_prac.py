@@ -11,8 +11,6 @@ train_y = [3,5,7,9,11,13,15]
 a = tf.Variable(0.1)
 b = tf.Variable(0.1)
 
-
-
 opt = tf.keras.optimizers.Adam(learning_rate = 0.01)
 
 def 손실함수():
